@@ -7,7 +7,8 @@ the [Drupal community][Drupal community].
 
 ## API Url
 
-/api/games - get all games
-/api/games/categoryid - get games by category id eg /api/games/2
+api/games - get all games
+
+api/games/categoryid - get games by category id eg /api/games/2
 
 Custom module to create, update and delete Api Credentials
