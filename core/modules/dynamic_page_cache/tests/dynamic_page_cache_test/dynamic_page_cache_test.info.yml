@@ -1,0 +1,10 @@
+name: 'Test Dynamic Page Cache'
+type: module
+description: 'Provides test routes/responses for Dynamic Page Cache.'
+package: Testing
+# version: VERSION
+
+# Information added by Drupal.org packaging script on 2022-11-10
+version: '10.0.0-beta2+173-dev'
+project: 'drupal'
+datestamp: 1668112595

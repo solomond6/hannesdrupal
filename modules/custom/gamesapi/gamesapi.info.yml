@@ -1,0 +1,5 @@
+name: Games Api
+type: module
+description: This dispaly information game api keys.
+core_version_requirement: 10.x
+package: Custom

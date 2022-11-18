@@ -1,0 +1,12 @@
+name: 'Field UI'
+type: module
+description: 'Provides a user interface for the Field module.'
+package: Core
+# version: VERSION
+dependencies:
+  - drupal:field
+
+# Information added by Drupal.org packaging script on 2022-11-10
+version: '10.0.0-beta2+173-dev'
+project: 'drupal'
+datestamp: 1668112595

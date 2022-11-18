@@ -1,0 +1,7 @@
+name: lando-drupal10
+recipe: drupal10
+config:
+  webroot: .
+
+plugins:
+  "@lando/drupal/": ./../../

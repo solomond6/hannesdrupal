@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains gamesapi.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function gamesapi_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the gamesapi module.
+    case 'help.page.gamesapi':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This dispaly information.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+function gamesapi_theme() {
+  // We use a template file to allow for translation of blocks of content.
+  // Therefore we need to add this content at the theming layer.
+  return [
+    'gamesapi_description' => [
+      'template' => 'description',
+      'variables' => [],
+    ],
+  ];
+}
